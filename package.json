@@ -1,0 +1,11 @@
+{
+  "name": "nodejsexample",
+  "version": "1.0.0",
+  "description": "W3 Activity: create a nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tristin Parker",
+  "license": "ISC"
+}
