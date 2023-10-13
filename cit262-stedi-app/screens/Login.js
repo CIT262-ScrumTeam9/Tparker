@@ -72,6 +72,7 @@ const Login = ({loggedInState, loggedInStates,setLoggedInState})=>{
                   await Alert.alert("Did you type your number correctly? "+phoneNumber);
                 } else{
                   setLoggedInState(loggedInStates.LOGGING_IN);
+                  Alert.alert("Hello " + phoneNumber);
                 }
               }}
             >
