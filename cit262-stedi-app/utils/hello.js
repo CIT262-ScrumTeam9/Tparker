@@ -1,5 +1,13 @@
-const hello = ()=> {
-    return "Tristin";
-}
+export const sayHello=() =>{
+    console.log('hello');
+    return 'hello';
+  }
+  
+export const sayName=() =>{
+    console.log('Tristin');
+    return 'Tristin';
+   }
 
-export default hello;
+//For Manual Testing, Remove for Automated Testing
+
+export default sayHello;
